@@ -318,14 +318,14 @@
 // trimEnd va concat metodlaridan foydalaning.
 // Output: "startcode now"
 
-// function startCode(cod) {
-//   const code =" code now   "
-//   let i =code.trimEnd()
+function startCode(cod) {
+  const code =" code now   "
+  let i =code.trim()
 
-//   console.log(i.concat("start"));
-// }
+  console.log("start".concat(i));
+}
 
-// startCode()
+startCode()
 
 // ==============================================
 // ================= 18-masala ==================
